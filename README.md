@@ -1,5 +1,8 @@
-# esp32
-Arduino codes for ESP32
-### 1)ESP32Lamp
-This is a basic code to create a mqtt controlled lamp
-connect to WiFi -> connect to mqtt -> turn led on/off on msg
+# IOT-Lamp
+This project uses Esp32 to create a lamp which can be remotely from any where using adafruit dashboard
+### REQUIREMENTS
+1) ESP32 micro controller
+2) an led
+3) Adafruit account (with a feed)
+
+##### you can use relay instead of led and controll any electrical device with this,provided you have a relay of proper rating(AC/DC and curent)
