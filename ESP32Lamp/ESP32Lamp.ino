@@ -1,17 +1,13 @@
-/*
- * for Help visit https://techtutorialsx.com/2017/04/24/esp32-subscribing-to-mqtt-topic/
- */
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-
 #define LED 16
-const char* ssid     = "TP-LINK_C2D4";
-const char* password = "TPLINK102";
+const char* ssid     = "<wifi ssid>";
+const char* password = "<wifi password>";
 const char* mqttServer = "io.adafruit.com";
 const int mqttPort = 1883;
-const char* mqttUser = "rohitd";
-const char* mqttPassword = "b9ae31abc42946428655421b6663a6e2";
+const char* mqttUser = "<your adafruit id>";
+const char* mqttPassword = "<your key>";
  
 WiFiClient espClient;
 PubSubClient client(espClient);
